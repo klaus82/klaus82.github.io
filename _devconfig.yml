@@ -6,12 +6,12 @@ permalink: /blog/:year/:month/:day/:title/
 relative_permalinks: false
 
 # Setup
-title:               blog.dev.klaus
+title:               foo
 #tagline:             'foo's website
-description:         yet another developer blog
-url: https://klaus82.github.io
-baseurl: ""
-urlimg: https://klaus82.github.io/images/
+description:         Foo's blog...
+url:                 http://localhost:4000
+baseurl:  ""
+urlimg: http://localhost:4000/images/
 markdown: kramdown
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -33,28 +33,28 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 
 # About/contact
 author:
-  name:              Claudio Masolo
-  url:               https://twitter.com/ClaudioAkaKlaus
+  name:              Foo Boo
+  url:               https://twitter.com/abcd
   avatar:         foo.png
   #email:           
 
 # Owner/author information
 owner:
-  name:           Claudio Masolo
+  name:           Foo Boo
   avatar:         foo.png
   #email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        ClaudioAkaKlaus
+  twitter:        abcd
   facebook:       
-  github:         klaus82
+  github:         xyz123abc
   stackexchange:  
   linkedin:       https://www.linkedin.com/in/foo
   instagram:      
   flickr:
   tumblr:  
-  google_plus:    
+  google_plus:    https://plus.google.com/+foo
   # orcid and google scholar IDs are different than standard username.
   orcid: xyz123abc
   gscholar: xyz123abc
@@ -73,12 +73,12 @@ links:
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
   - title: <i class="iconside iconm-wordpress"></i> Old Blog
-    url: https://claudioakaklaus.wordpress.com
+    url: https://foo.wordpress.com
     external: true
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
   - title: <i class="iconside iconm-twitter"></i> Twitter
-    url: https://twitter.com/ClaudioAkaKlaus
+    url: https://twitter.com/abcd
     external: true
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
@@ -91,12 +91,12 @@ links:
 #twitter_widget_id: xyz123abc
 
 # Add disqus username for Disqus comment board:
-#disqus_shortname: foo
+disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
 
 #### For dummy website only - remove if you wish ####
-#github_repo: https://github.com/dyndna/lanyon-plus
-#version: 1.1.0
+github_repo: https://github.com/dyndna/lanyon-plus
+version: 1.1.0
 ## END ##
