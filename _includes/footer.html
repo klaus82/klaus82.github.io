@@ -1,15 +1,8 @@
-            <div class="custom-footer" style="display: block;">
-            <div class="footer-social-icons">
-            <ul class="social-icons">
-            {% for social_item in site.data.socialmedia %}
-              {% if social_item.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = site.url %}
-            {% endif %}
-            <li><a href="{{ domain }}{{ social_item.url }}" rel="me" {% if social_item.url contains 'http' %} target="_blank" {% endif %} class="social-icons" title="{{ social_item.title }}"> <i class="{{ social_item.class }} fa-2x"></i></a></li>
-            {% endfor %}          
-            </ul>
-            </div>
-            <h6 class="text-footer"><a rel="license" href="{{ site.url }}/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure" class="social-icon"><i class="fa fa-creative-commons"></i></a> <a rel="license" href="{{ site.url }}/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure">2015-{{ site.time | date: '%Y' }}</a>: <a href="{{ site.url }}" title="Home">example.com</a> | <a href="{{ site.url }}/about/" rel="me">About</a></h6>
-            </div>
+<footer class="footer">
+  <a href="https://github.com/{{site.author.github}}"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://twitter.com/{{site.author.twitter}}"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://instagram.com/{{site.author.instagram}}"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://linkedin.com/in/{{site.author.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+  <a href="mailto:{{site.author.email}}"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  <div class="post-date"><a href="{{ site.github.url }}/menu/about.html">{{ site.title }} | {{ site.tagline }} by {{ site.author.name }}</a></div>
+</footer>

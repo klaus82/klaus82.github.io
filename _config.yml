@@ -1,102 +1,34 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-#permalink:           pretty
-permalink: /blog/:year/:month/:day/:title/
-relative_permalinks: false
-
-# Setup
-title:               blog.dev.klaus
-#tagline:             'foo's website
-description:         yet another developer blog
-url: https://klaus82.github.io
-baseurl: ""
-urlimg: https://klaus82.github.io/images/
-markdown: kramdown
-paginate: 5
-paginate_path: "/blog/page:num"
-excerpt_separator: <!--more-->
-default_bg: sitelogo.png 
-safe: false
-#timezone:    America/Chicago
-future:      true
-
-gems:
-  - jekyll-paginate
-  - jemoji
-  - font-awesome-sass
-  - kramdown
-  - rouge
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
-
-# About/contact
+# Site Settings
+title:               it.dev.claudio
+tagline:             yet another developer blog
+description:
+baseurl:            #"/Lagrange"
+url:                #"https://lenpaul.github.io"
+github:
+  url:               #"https://lenpaul.github.io/Lagrange"
 author:
-  name:              Claudio Masolo
-  url:               https://twitter.com/ClaudioAkaKlaus
-  avatar:         foo.png
-  #email:           
+  name:              "Claudio Masolo"
+  email:             "claudio.masolo@gmail.com"
+  twitter:           "ClaudioAkaKlaus"
+  instagram:         ""
+  github:            ""
+  facebook:          ""
+  linkedin:          ""
 
-# Owner/author information
-owner:
-  name:           Claudio Masolo
-  avatar:         foo.png
-  #email:          
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        ClaudioAkaKlaus
-  facebook:       
-  github:         klaus82
-  stackexchange:  
-  linkedin:       https://www.linkedin.com/in/foo
-  instagram:      
-  flickr:
-  tumblr:  
-  google_plus:    
-  # orcid and google scholar IDs are different than standard username.
-  orcid: xyz123abc
-  gscholar: xyz123abc
+#FIXME:
+#navigation:
+#- title: About
+#  url: /about
+#- title: Writing
+#  url: /writing
+#- title: Contact
+#  url: /contact
 
-## sidebar links:
-# For external links add external: true
-links:
-  - title: <i class="iconside iconm-home"></i> Home
-    url: /
-  - title: <i class="iconside iconm-user"></i> About
-    url: /about/
-  - title: <i class="iconside iconm-quill"></i> Blog
-    url: /blog/
-  - title: <i class="fa fa-tags"></i> Tags
-    url: /tags/
-  - title: <i class="fa fa-archive"></i> Archive
-    url: /archive/
-  - title: <i class="iconside iconm-wordpress"></i> Old Blog
-    url: https://claudioakaklaus.wordpress.com
-    external: true
-  - title: <i class="iconside iconm-envelop"></i> Contact
-    url: /contact/
-  - title: <i class="iconside iconm-twitter"></i> Twitter
-    url: https://twitter.com/ClaudioAkaKlaus
-    external: true
-  - title: <i class="iconside iconm-feed2"></i> Feed
-    url: /feed.xml
+paginate:            5
+disqus:              #"your-disqus"
 
-# Google Custom Search:
-#google_search: xyz123abc
-
-# Twitter stream widget:
-# Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
-#twitter_widget_id: xyz123abc
-
-# Add disqus username for Disqus comment board:
-#disqus_shortname: foo
-
-# Analytics and webmaster tools stuff goes here
-#google_analytics:   xyz123abc
-
-#### For dummy website only - remove if you wish ####
-#github_repo: https://github.com/dyndna/lanyon-plus
-#version: 1.1.0
-## END ##
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]

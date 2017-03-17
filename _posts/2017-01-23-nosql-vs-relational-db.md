@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Relational vs NoSql Database
-excerpt: ""
-categories: [database]
-comments: true
+title: "Relational vs NoSql Database"
+categories: database
+tags: [database]
 image:
-  feature: 
+  feature: Montagne-Rocciose-1000x441.jpg
+  teaser: Montagne-Rocciose-1000x441.jpg
+  credit:
+  creditlink:
 ---
-
-[image]http://www.lerevehouseadventure.com/wp-content/uploads/2013/06/Montagne-Rocciose-1000x441.jpg
 
 What is a NoSql database? and how is different from a relational database? these are some frequent questions when somebody start to study the NoSql Database.
 First of all: what is a relational database? Relational database is a collection of data items organized as a set of tables, the table describe the relationship between datas stored. The lenguage used to manage this kind of database is SQL (Structured Query Language).
@@ -30,4 +30,3 @@ In this posts serie i what to write on the graph database standard de facto: Neo
 What is a graph database? A graph management system (Graph database) is a NoSql database management system with Create, Read, Update and Delete (CRUD) methods that expose a graph data model.
 
 In the next posts we'll go deeper into graph db world, and we'll use Neo4j for some tests.
-

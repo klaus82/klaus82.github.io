@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Continuous Integration,delivery,deploy
-excerpt: "Continuous Integration,continuous delivery and continuous deploy are terms used a lot into software world. But I think, in most cases, are used in the wrong way, by me in the first place."
-categories: [DevOps]
-comments: true
+title: "Continuous Integration,delivery,deploy"
+categories: DevOps
+tags: [DevOps]
 image:
-  feature: http://www.ilsecoloxix.it/rf/Image-lowres_Multimedia/IlSecoloXIXWEB/economia/foto/2016/04/22/seasiderendering/MSC16006400.jpg
+  feature: seaside-06.jpg
+  teaser: seaside-06.jpg
+  credit:
+  creditlink:
 ---
 
 Continuous Integration,continuous delivery and continuous deploy are terms used a lot into software world. But I think, in most cases, are used in the wrong way, by me in the first place.
@@ -19,4 +21,4 @@ Continuous Deployment is a software development practice in which every code cha
 
 So, at first sight, these are the definitions of the same thing, but it isn’t. Continuous integration stops at test stage, continuous delivery make a more step and stops at manually deployment to production. Continuous Deployment makes the last step and deploy automatically software to production.
 
-I think is important to keep in mind these differences in order to make the right choose in your software production chain. 
+I think is important to keep in mind these differences in order to make the right choose in your software production chain.
