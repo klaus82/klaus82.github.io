@@ -5,7 +5,7 @@ description:
 baseurl:            #"/Lagrange"
 url:                #"https://klaus82.github.io/"
 github:
-  url:               "https://github.com/klaus82"
+  url:               #"https://github.com/klaus82"
 author:
   name:              "Claudio Masolo"
   email:             "claudio.masolo@gmail.com"
@@ -15,8 +15,7 @@ author:
   facebook:          ""
   linkedin:          ""
 
-#FIXME:
-#navigation:
+navigation:
 - title: About me
   url: /about
 #- title: Writing
