@@ -3,22 +3,22 @@ title:               it.dev.claudio
 tagline:             yet another developer blog
 description:
 baseurl:            #"/Lagrange"
-url:                #"https://lenpaul.github.io"
+url:                "https://klaus82.github.io/"
 github:
-  url:               #"https://lenpaul.github.io/Lagrange"
+  url:               "https://github.com/klaus82"
 author:
   name:              "Claudio Masolo"
   email:             "claudio.masolo@gmail.com"
   twitter:           "ClaudioAkaKlaus"
   instagram:         ""
-  github:            ""
+  github:            "klaus82"
   facebook:          ""
   linkedin:          ""
 
 #FIXME:
 #navigation:
-#- title: About
-#  url: /about
+- title: About me
+  url: /about
 #- title: Writing
 #  url: /writing
 #- title: Contact
