@@ -3,7 +3,7 @@ title:               it.dev.claudio
 tagline:             yet another developer blog
 description:
 baseurl:            #"/Lagrange"
-url:                "https://klaus82.github.io/"
+url:                #"https://klaus82.github.io/"
 github:
   url:               "https://github.com/klaus82"
 author:
