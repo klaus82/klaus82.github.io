@@ -61,14 +61,14 @@ params:
     title: Claudio Masolo
     subtitle: "Cloud Engineer | DevOps | Tech Blogger"
     imageUrl: "assets/claudio_2.jpg"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 240
+    imageHeight: 240
     imageTitle: me
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # buttons:
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
 
   # home-info mode
   homeInfoParams:
