@@ -64,9 +64,9 @@ params:
     imageWidth: 240
     imageHeight: 240
     imageTitle: me
-    # buttons:
-    #   - name: Posts
-    #     url: posts
+    buttons:
+      - name: Posts
+        url: posts
     #   - name: Tags
     #     url: tags
 
