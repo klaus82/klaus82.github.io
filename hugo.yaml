@@ -57,7 +57,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Claudio Masolo
     subtitle: "Cloud Engineer | DevOps | Tech Blogger"
     imageUrl: "assets/claudio_2.jpg"
