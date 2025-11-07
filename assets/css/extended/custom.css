@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* Apply to entire site including blog posts */
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Ensure it applies to post content */
+.post-content {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Code blocks (will already use JetBrains Mono since body uses it) */
+code, pre, kbd, samp {
+    font-family: 'JetBrains Mono', monospace;
+}

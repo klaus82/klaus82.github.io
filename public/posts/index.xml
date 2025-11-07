@@ -11,14 +11,15 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Nov 2025 17:02:16 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 15:10:47 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test2</title>
-      <link>http://localhost:1313/posts/test2/</link>
-      <pubDate>Thu, 06 Nov 2025 17:02:16 +0100</pubDate>
-      <guid>http://localhost:1313/posts/test2/</guid>
-      <description></description>
+      <title>Role Mlops</title>
+      <link>http://localhost:1313/posts/role-mlops/</link>
+      <pubDate>Fri, 07 Nov 2025 15:10:47 +0000</pubDate>
+      <guid>http://localhost:1313/posts/role-mlops/</guid>
+      <description>&lt;p&gt;Machine Learning Operations (MLOps) is an emerging discipline that aims to integrate the practices of machine learning and operations to streamline the end-to-end process of developing, deploying, and managing ML models.&lt;/p&gt;
+&lt;p&gt;The role of the MLOps engineer is crucial in bridging the gap between machine learning (ML) development and production deployment to have smooth and efficient deployment, scaling, and maintenance of machine learning (ML) models. In this post, I want to give an overview of the key responsibilities and activities associated with the role:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
