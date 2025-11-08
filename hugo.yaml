@@ -80,9 +80,15 @@ params:
     #   url: "https://x.com/"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/cmasolo/"
     - name: github
       url: "https://github.com/klaus82"
-
+    - name: substack
+      url: "https://substack.com/@claudioma"
+    - name: dev.to
+      url: "https://dev.to/klaus82"
+    
   # analytics:
   #   google:
   #     SiteVerificationTag: "XYZabc"
