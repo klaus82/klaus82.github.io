@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Claudio Masolo
-    subtitle: "Cloud Engineer | DevOps | Tech Blogger"
+    subtitle: "DevOps | Cloud Engineer"
     imageUrl: "assets/claudio_2.jpg"
     imageWidth: 240
     imageHeight: 240
