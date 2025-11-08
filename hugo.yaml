@@ -26,7 +26,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -65,8 +65,8 @@ params:
     imageHeight: 240
     imageTitle: me
     buttons:
-      # - name: Posts
-      #   url: posts
+      - name: Posts
+        url: posts
     #   - name: Tags
     #     url: tags
 

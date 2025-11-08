@@ -1,7 +1,7 @@
 ---
 date: '2025-11-07T15:10:47Z'
 draft: false
-title: 'Role Mlops'
+title: 'Role and Skills of Mlops Engineer'
 ---
 Machine Learning Operations (MLOps) is an emerging discipline that aims to integrate the practices of machine learning and operations to streamline the end-to-end process of developing, deploying, and managing ML models.
 
