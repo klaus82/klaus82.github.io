@@ -1,3 +1,6 @@
+#build the hugo image:
+docker build -t hugo .
+
 #run the hugo image:
 docker run --rm -it -v $(pwd):/cmasolo -p1313:1313 hugo /bin/bash
 

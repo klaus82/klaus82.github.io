@@ -1,8 +1,17 @@
-FROM ubuntu:latest
+# Base stage for building the static files
+FROM node:lts AS base
+WORKDIR /app
 
-ARG HUGO_VERSION=0.152.2
+# Install pnpm
+RUN corepack enable && corepack prepare pnpm@latest --activate
 
-RUN apt-get update && apt-get install -y wget sudo
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm install --frozen-lockfile
 
-RUN wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-arm64.deb \
-    && sudo dpkg -i /tmp/hugo.deb
+COPY . .
+RUN pnpm run build
+
+# Runtime stage for serving the application
+FROM nginx:mainline-alpine-slim AS runtime
+COPY --from=base /app/dist /usr/share/nginx/html
+EXPOSE 80
