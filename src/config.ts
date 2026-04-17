@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://www.cmasolo.xyz",
   desc: "Senior Cloud/DevOps Engineer, Blogger, InfoQ Senior Contributor.",
   title: "Claudio Masolo",
-  ogImage: "/images/claudio_2.png", // replace with your own og image
+  ogImage: "claudio_2.png", // replace with your own og image
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
