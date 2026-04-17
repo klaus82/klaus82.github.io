@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://www.cmasolo.xyz/", // replace ed domain
+  website: "https://www.cmasolo.xyz", // replace ed domain
   author: "Claudio Masolo",
-  profile: "https://www.cmasolo.xyz/",
+  profile: "https://www.cmasolo.xyz",
   desc: "Senior Cloud/DevOps Engineer, Blogger, InfoQ Senior Contributor.",
   title: "Claudio Masolo",
   ogImage: "astropaper-og.jpg",
