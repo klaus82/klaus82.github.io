@@ -1,7 +1,14 @@
 ---
-date: '2025-02-11T15:09:00Z'
+title: Sandboxing AI Coding Agents with Devcontainers
+author: Claudio Masolo
+pubDatetime: 2026-02-11T15:09:00Z
+slug: 
+featured: false
 draft: false
-title: 'Sandboxing AI Coding Agents with Devcontainers'
+ogImage: ../../assets/images/forrest-gump-quote.png
+tags:
+  - MLOps
+description: Sandboxing AI Coding Agents with Devcontainers
 ---
 The rise of AI-powered coding assistants like GitHub Copilot, Cursor, and various autonomous agents built on Claude or GPT-4 has fundamentally changed how we write code. These tools can read your codebase, suggest changes, and even execute commands. This capability is powerful, but it also raises a big security concern: you're giving an AI system access to your development environment. The question isn't whether these tools are malicious; it's about implementing proper isolation as a matter of principle.
 
