@@ -9,8 +9,7 @@ ogImage: ../../assets/images/forrest-gump-quote.png
 tags:
   - Kubernetes
 description: Kubernetes 1.36 vs Keda
---
-
+---
 
 Kubernetes 1.36 lands on April 22, and one of the headline features is something the community has been asking for since Kubernetes 1.16: the `HPAScaleToZero` feature gate, now in beta. The Horizontal Pod Autoscaler can finally scale a deployment down to zero replicas, and back up, without any third-party tooling.
 
